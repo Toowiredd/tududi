@@ -1,13 +1,9 @@
-# DISABLED AUTO-RUN: Originally triggered on auto-triggers
-# Converted to manual execution only - 2025-10-18
-# Backup available at: github-pages.yml.backup
 name: GitHub Pages
 
 on:
-  workflow_dispatch:  # Manual trigger only
-#   push:
-#     branches:
-#       - main
+  push:
+    branches:
+      - main
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
